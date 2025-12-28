@@ -1,4 +1,4 @@
-import {IBasicCar} from "./interfaces/IBasicCar";
+import {IBasicCar} from "../interfaces/IBasicCar";
 
 export class BaseCar implements IBasicCar {
     public feature(): void {

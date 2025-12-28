@@ -1,4 +1,4 @@
-import {ICarObserver} from "./interfaces/ICarObserver";
+import {ICarObserver} from "../interfaces/ICarObserver";
 
 export class InsuranceSystem implements ICarObserver {
     public update(status: string): void {

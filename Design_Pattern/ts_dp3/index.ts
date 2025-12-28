@@ -1,11 +1,11 @@
-import {CarRegistry} from "./src/car-singleton";
-import {CarFactory} from "./src/car-factory";
+import {CarRegistry} from "./src/design-patterns/car-singleton";
+import {CarFactory} from "./src/design-patterns/car-factory";
 import {CarTypesEnum} from "./src/enums/car-types-enum";
-import {CarProductBuilder} from "./src/car-product-builder";
-import {CarStatusNotifier, InsuranceSystem, ServiceCenter} from "./src/CarObserver";
-import {CarController, EcoMode, SportMode} from "./src/driving-strategy";
+import {CarProductBuilder} from "./src/design-patterns/car-product-builder";
+import {CarStatusNotifier, InsuranceSystem, ServiceCenter} from "./src/design-patterns/car-observer";
+import {CarController, EcoMode, SportMode} from "./src/design-patterns/driving-strategy";
 import {IBasicCar} from "./src/interfaces/IBasicCar"
-import {BaseCar, GPSDecorator, MusicDecorator} from "./src/car-decorator";
+import {BaseCar, GPSDecorator, MusicDecorator} from "./src/design-patterns/car-decorator";
 
 class Main {
     public start(): void {

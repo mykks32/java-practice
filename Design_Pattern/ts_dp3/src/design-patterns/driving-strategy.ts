@@ -1,4 +1,4 @@
-import {IDrivingStrategy} from "./interfaces/IDrivingStrategy";
+import {IDrivingStrategy} from "../interfaces/IDrivingStrategy";
 
 export class EcoMode implements IDrivingStrategy {
     public drive(): void {

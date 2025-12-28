@@ -1,5 +1,5 @@
-import {Car} from "./interfaces/ICar";
-import {CarTypesEnum} from "./enums/car-types-enum";
+import {Car} from "../interfaces/ICar";
+import {CarTypesEnum} from "../enums/car-types-enum";
 
 class Sedan implements Car {
     public drive(): void {
